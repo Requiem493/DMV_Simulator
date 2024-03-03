@@ -1,19 +1,19 @@
 package DMV_Simulator;
+import java.util.Random;
 
 public class DMV_Simulator {
     public static void main(String[] args) {
         System.out.println("Welcome to the DMV");
         
         //Random number generated for the DMV
-        double ran =  Math.random();
-        double randInt = ran * 100;
-        int randNum = (int)randInt + 1;
-        int trigger = randNum + 1;
+        Random ran = new Random();
+        int randInt = ran.nextInt(200)+1;
+        int trigger = randInt + 1;
 
-        while(trigger != randNum){
+        while(trigger != randInt){
             System.out.println("Number " + trigger + "!" );
             trigger++;
-            if(trigger > 100 ){
+            if(trigger > 200 ){
                 trigger = 1;
             }
         }
