@@ -18,7 +18,7 @@ public class DMV_Simulator {
             }
         }
 
-        System.out.println("Sorry. You don't have the required paperwork.");
+        System.out.println("Sorry. You don't have the required paperwork. GET LOST!!!! SCRAM!!!");
 
 
 
