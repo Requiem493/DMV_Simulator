@@ -21,11 +21,12 @@ public class DMV_Simulator {
         }
 
         if(miracle < 100){
-        System.out.println("Sorry. You don't have the required paperwork. GET LOST!!!! SCRAM!!!");
+        System.out.println("Sorry. You don't have the required paperwork. GET LOST!!!! SCRAM!!! MMMMWWWWAHAHAHAHHAHAHAHAHA!!!!!!!");
         }
         else{
             System.out.println("You have the required paperwork. You are all set.");
         }
+
 
 
 
