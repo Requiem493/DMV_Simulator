@@ -7,6 +7,8 @@ public class DMV_Simulator {
         
         //Random number generated for the DMV
         Random ran = new Random();
+        Random mir = new Random();
+        int miracle = mir.nextInt(100)+1;
         int randInt = ran.nextInt(200)+1;
         int trigger = randInt + 1;
 
@@ -18,7 +20,12 @@ public class DMV_Simulator {
             }
         }
 
+        if(miracle < 100){
         System.out.println("Sorry. You don't have the required paperwork. GET LOST!!!! SCRAM!!! MMMMWWWWAHAHAHAHHAHAHAHAHA!!!!!!!");
+        }
+        else{
+            System.out.println("You have the required paperwork. You are all set.");
+        }
 
 
 
